@@ -267,3 +267,28 @@ Buttons
   background: var(--primaryLightColor);
   border-color: var(--primaryLightColor);
 }
+/*
+Cocktail
+*/
+
+.cocktail-section {
+  text-align: center;
+}
+
+.drink {
+  width: var(--smallWidth);
+  max-width: var(--fullWidth);
+  margin: 0 auto;
+  text-align: left;
+}
+.drink img {
+  border-radius: var(--mainBorderRadius);
+}
+.drink p {
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.8rem;
+}
+.drink span {
+  margin-right: 0.5rem;
+}
